@@ -1,0 +1,14 @@
+/* .temclasse{
+    color: aquamarine;
+} */
+
+html{
+    font-family:sans-serif;
+    
+  }
+  
+  #integrantesGrupo{
+    background-color:'#c4c4c4';
+    border: 1px red solid;
+    padding:5px;
+  }
