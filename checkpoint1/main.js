@@ -33,7 +33,7 @@ for(let post of posts) {
             <h2>${post.nome}</h2>
             <p>${post.tipo}</p>
             <p>${post.descricao}</p>
-            <p>${post.link}</p>
+            <a href="${post.link}">Linkedin/Github</a>
         </div>
     `
 
@@ -68,8 +68,10 @@ novaPostagemElemento.addEventListener('click', (evento) => {
             <h2>${postagem.nome}</h2>
             <p>${postagem.tipo}</p>
             <p>${postagem.descricao}</p>
-            <p>${postagem.link}</p>
+            <a href="${postagem.link}">Linkedin/Github</a>
         </div>
     `
+    
+    document.querySelector('form').reset()
 
 })
